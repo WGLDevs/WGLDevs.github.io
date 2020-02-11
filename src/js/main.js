@@ -1,3 +1,7 @@
+/* Estilo */
+require('./../css/styles.css');
+
+/*JavaScript*/
 window.jQuery = require('jquery');
 window.$ = window.jQuery; 
 window.WOW = require('wowjs/dist/wow').WOW;
