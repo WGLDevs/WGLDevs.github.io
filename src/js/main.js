@@ -1,5 +1,11 @@
 /* Estilo */
+require('bootstrap/dist/css/bootstrap.css');
+require('./../css/library/animate.css/animate.css');
+require('./library/owl.carousel/owl.css');
+require('@fancyapps/fancybox/dist/jquery.fancybox.css');
 require('./../css/styles.css');
+require('./../css/responsive.css');
+
 
 /*JavaScript*/
 window.jQuery = require('jquery');
