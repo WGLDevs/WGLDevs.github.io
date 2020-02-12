@@ -13,6 +13,19 @@
   background-size: cover;
 }
 
+/* cores */
+.purple-color {
+  color: #9774fa;
+}
+
+.iron-color {
+  color: #ed7256;
+}
+
+.sky-color {
+  color: #2796e2;
+}
+
 /*------------- 
 [Table of contents]
 
@@ -1388,7 +1401,7 @@ li .fa {
 }
 
 .home-padding {
-  padding: 180px 0;
+  padding: 60px 0;
 }
 
 /*
@@ -3356,17 +3369,7 @@ li .fa {
   margin-top: 16px;
 }
 
-.mh-service .mh-service-item .fa.purple-color {
-  color: #9774fa;
-}
 
-.mh-service .mh-service-item .fa.iron-color {
-  color: #ed7256;
-}
-
-.mh-service .mh-service-item .fa.sky-color {
-  color: #2796e2;
-}
 
 .mh-service .mh-service-item h3 {
   margin-bottom: 18px;
