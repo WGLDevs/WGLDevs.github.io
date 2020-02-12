@@ -1,3 +1,12 @@
+.main-header-icon {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.mh-home .mh-header-info ul li:hover .main-header-icon {
+  color: #0bceaf;
+}
+
 /*------------- 
 [Table of contents]
 
@@ -1510,18 +1519,12 @@ li .fa {
   margin: 10px 0;
 }
 
-.mh-home .mh-header-info ul li .fa {
-  margin-right: 15px;
-  display: inline-block;
-}
+
 
 .mh-home .mh-header-info ul li address {
   display: inline-block;
 }
 
-.mh-home .mh-header-info ul li:hover .fa {
-  color: #0bceaf;
-}
 
 .mh-home .mh-header-info .social-icon {
   margin-top: 0;

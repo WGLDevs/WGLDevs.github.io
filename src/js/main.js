@@ -3,6 +3,9 @@ require('bootstrap/dist/css/bootstrap.css');
 require('./../css/library/animate.css/animate.css');
 require('./library/owl.carousel/owl.css');
 require('@fancyapps/fancybox/dist/jquery.fancybox.css');
+require('./../css/library/fontawesome-5.12.1/css/fontawesome.min.css');
+require('./../css/library/fontawesome-5.12.1/css/solid.min.css');
+require('./../css/library/fontawesome-5.12.1/css/brands.min.css');
 require('./../css/styles.css');
 require('./../css/responsive.css');
 
