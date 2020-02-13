@@ -13,6 +13,11 @@
   background-size: cover;
 }
 
+.container-detailed-person .btn-linkedin{
+  font-size: 30px;
+  color: #0077b5;
+}
+
 /* cores */
 .purple-color {
   color: #9774fa;
