@@ -16,6 +16,24 @@
 .container-detailed-person .btn-linkedin{
   font-size: 30px;
   color: #0077b5;
+  transition: color .5s;
+}
+
+.container-detailed-person .btn-linkedin:hover {
+  color: #2aa8ea;
+}
+
+.container-detailed-person .year{
+  font-size: 15px;
+}
+
+.container-detailed-person .email {
+  margin-bottom: 8px !important;
+}
+
+.container-detailed-person .email:hover {
+  color: #ccc;
+  text-decoration: underline;
 }
 
 /* cores */
