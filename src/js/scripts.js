@@ -10,15 +10,6 @@
           $(".section-loader").fadeOut("slow");
           
         });
-      /* Loader Code End */
-
-
-      // var height = $('.mh-service-item').height();
-      // if($(window).width()){
-      //   $('.mh-service-item').css('height', height);   
-      //   $('.mh-service-item').css('height', height);   
-      // }
-  
 
       $(window).on('load', function() {
         $('#header-slider #animation-slide').owlCarousel({
