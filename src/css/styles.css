@@ -1540,8 +1540,8 @@ li .fa {
        ABOUT
     ==============
 */
-.mh-about .mh-about-inner {
-
+#mh-about {
+  padding-top: 90px;
 }
 
 .mh-about .mh-about-inner h2 {
@@ -1590,8 +1590,9 @@ li .fa {
        SKILLS
     ==============
 */
-.mh-skills .mh-professional-skill {
-  padding-right: 60px;
+.mh-skills {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .mh-skills .mh-professional-skill h3 {
