@@ -30,6 +30,14 @@
   text-decoration: underline;
 }
 
+.box-img-about {
+    background-size: cover;
+}
+
+.box-img-about.gabriel {
+  background-image: url(../images/team/gabriel.jpg);
+}
+
 /* cores */
 .purple-color {
   color: #9774fa;
