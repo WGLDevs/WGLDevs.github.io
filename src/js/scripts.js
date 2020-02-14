@@ -161,7 +161,7 @@
           if (event.isDefaultPrevented()) {
             // handle the invalid form...
             formError();
-            submitMSG(false, "Did you fill in the form properly?");
+            submitMSG(false, "Preencha todo o formulário");
           } else {
             // everything looks good!
             event.preventDefault();
@@ -189,7 +189,7 @@
         }
         function formSuccess(){
             $("#contactForm")[0].reset();
-            submitMSG(true, "Message Sent!")
+            submitMSG(true, "Agradecemos o contato. Em breve responderemos!")
         }
     	  function formError(){   
     	    $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
