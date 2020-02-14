@@ -40,6 +40,10 @@
   background-image: url(../images/team/gabriel.jpg);
 }
 
+.box-img-about.wellerson{
+  background-image: url(../images/team/wellerson.jpg);
+}
+
 /* cores */
 .purple-color {
   color: #9774fa;
