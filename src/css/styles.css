@@ -32,6 +32,8 @@
 
 .box-img-about {
     background-size: cover;
+    margin: 0 auto;
+    width: 250px;
 }
 
 .box-img-about.gabriel {
