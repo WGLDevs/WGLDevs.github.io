@@ -7,12 +7,6 @@
   color: #0bceaf;
 }
 
-.main-picture {
-  background: url(../images/picture.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
 .container-detailed-person .btn-linkedin{
   font-size: 30px;
   color: #0077b5;
@@ -1424,7 +1418,7 @@ li .fa {
 }
 
 .home-padding {
-  padding: 60px 0;
+  padding: 120px 0;
 }
 
 /*
@@ -1503,11 +1497,17 @@ li .fa {
     ==============
 */
 .mh-home .mh-header-info {
-  padding-top: 100px;
+  padding: 100px 0 60px 0 ;
 }
 
 .mh-home .mh-header-info .mh-promo {
   margin-bottom: 30px;
+}
+
+.mh-home .team-name {
+  color:#fff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
 }
 
 .mh-home .mh-header-info .mh-promo span {
@@ -1619,7 +1619,7 @@ li .fa {
     ==============
 */
 .mh-about .mh-about-inner {
-  padding-left: 50px;
+
 }
 
 .mh-about .mh-about-inner h2 {
@@ -3258,6 +3258,7 @@ li .fa {
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center center;
+  background-image: url(../images/background_home_1.jpg);
 }
 
 .mh-featured-project .mh-featured-item {
