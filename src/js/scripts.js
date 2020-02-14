@@ -7,7 +7,7 @@
   
       /* Loader Code Start */
       $(window).on("load", function() { 
-         // $(".section-loader").fadeOut("slow");
+          $(".section-loader").fadeOut("slow");
           
       });
 
