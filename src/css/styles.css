@@ -169,9 +169,13 @@
 html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height:100%;
 }
 
 body {
+  width: 100%;
+  height:100%;
   font-family: "roboto", sans-serif;
   font-size: 14px;
   font-style: none;
@@ -679,11 +683,8 @@ ul li {
 }
 
 .section-separator {
-  padding:40px 0 40px 0;
-}
+  padding:30px 0 30px 0;
 
-.mh-service > .container > .section-separator {
-  padding-bottom: 0 !important;
 }
 
 .bg-black {
@@ -1563,7 +1564,7 @@ li .fa {
     ==============
 */
 #mh-about {
-  padding-top: 90px;
+  padding-top: 40px;
 }
 
 .mh-about .mh-about-inner h2 {
@@ -1614,7 +1615,7 @@ li .fa {
 */
 .mh-skills {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .mh-skills .mh-professional-skill h3 {
@@ -3199,6 +3200,8 @@ li .fa {
 }
 
 .home-ov-img {
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3330,7 +3333,7 @@ li .fa {
 */
 
 .mh-service {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 
 .mh-service .mh-service-item {
