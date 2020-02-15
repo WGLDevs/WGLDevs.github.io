@@ -48,8 +48,25 @@
   background-image: url(../images/team/lorram.jpg);
 }
 
-.mh-portfolio-modal-img img {
-  width: 100%;
+
+
+.mockup img {
+  height: 200px;
+  object-fit: contain;
+}
+
+
+.mh-portfolio-modal-img img.portrait{
+  object-fit: contain;
+    height: 500px;
+}
+
+.mh-portfolio-modal-img .container-picture {
+  text-align: center;
+}
+
+.mh-portfolio-modal-img .container-picture img {
+  max-width: 100%;
 }
 
 /* cores */
@@ -1899,10 +1916,11 @@ li .fa {
 
 .mh-portfolio-modal-inner {
   max-height: 500px;
-  overflow-y: scroll;
+  overflow-y: auto;
   margin-right: 20px;
 }
 
+/*
 .mh-portfolio-modal-inner::-webkit-scrollbar-track {
   border: 1px solid #000;
   padding: 2px 0;
@@ -1917,7 +1935,7 @@ li .fa {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 10px #000;
           box-shadow: inset 0 0 10px #000;
-}
+}*/
 
 .mh-portfolio-modal-inner h2 {
   margin-top: 10px;
