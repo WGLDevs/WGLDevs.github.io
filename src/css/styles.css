@@ -3308,8 +3308,7 @@ li .fa {
 */
 
 .mh-service {
-  background-color: #fff !important;
-  padding-bottom: 10%;
+  padding-bottom: 100px;
 }
 
 .mh-service .mh-service-item {
