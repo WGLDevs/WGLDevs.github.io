@@ -48,6 +48,10 @@
   background-image: url(../images/team/lorram.jpg);
 }
 
+.mh-portfolio-modal-img img {
+  width: 100%;
+}
+
 /* cores */
 .purple-color {
   color: #9774fa;

@@ -5,18 +5,11 @@
       return this.addBack.apply(this, arguments);
     }
   
-      /* Loader Code Start */
       $(window).on("load", function() { 
           $(".section-loader").fadeOut("slow");
           
       });
 
-    /*
-    |====================
-    | Mobile NAv trigger
-    |=====================
-    */
-    
     var trigger = $('.navbar-toggler'),
       overlay     = $('.overlay'),
       navc     = $('.navbar-collapse'),
@@ -30,13 +23,6 @@
           overlay.toggleClass('active');
           navc.toggleClass('active');
       });  
-      
-        
-    /*
-    |=================
-    | Onepage Nav
-    |================
-    */
         
       $('#mh-header').onePageNav({
           currentClass: 'active', 
@@ -45,39 +31,14 @@
           scrollThreshold: 0.5,
       });
     
-    /*
-    |=================
-    | fancybox
-    |================
-    */
  
       $("[data-fancybox]").fancybox({});
       
-      
-    /*
-    |===============
-    | WOW ANIMATION
-    |==================
-    */
     	var wow = new WOW({
-          mobile: false  // trigger animations on mobile devices (default is true)
+          mobile: false  
       });
       wow.init();
       
-      
-    /*
-    |=================
-    | AOS
-    |================
-    */      
-      
-      //AOS.init();
-  
-    /*
-    | ==========================
-    | NAV FIXED ON SCROLL
-    | ==========================
-    */
     $(window).on('scroll', function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
@@ -87,21 +48,6 @@
         }
     });
     
-
-    /*
-    |=================
-    | Progress bar
-    |================
-    */   
-    $(".determinate").each(function(){
-      var width = $(this).text();
-      $(this).css("width", width)
-        .empty()
-        .append('<i class="fa fa-circle"></i>');                
-    });
-    
-    
-    // Smooth Scroll
         $(function() {
           $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -117,15 +63,7 @@
           });
         });
         
-        
-        
-    /*
-    |=================
-    | CONTACT FORM
-    |=================
-    */
-        
-      $("#contactForm").validator().on("submit", function (event) {
+     /* $("#contactForm").validator().on("submit", function (event) {
           if (event.isDefaultPrevented()) {
             // handle the invalid form...
             formError();
@@ -172,7 +110,7 @@
           }
           $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
         }
-    
+    */
 
     
 }(jQuery));
