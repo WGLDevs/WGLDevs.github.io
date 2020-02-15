@@ -44,6 +44,10 @@
   background-image: url(../images/team/wellerson.jpg);
 }
 
+.box-img-about.lorram{
+  background-image: url(../images/team/lorram.jpg);
+}
+
 /* cores */
 .purple-color {
   color: #9774fa;
@@ -654,13 +658,11 @@ ul li {
 }
 
 .section-separator {
-  padding: 60px 0;
-  padding-top: 100px;
+  padding:40px 0 40px 0;
 }
 
-.home-section-separator {
-  padding-top: 100px;
-  padding-bottom: 200px;
+.mh-service > .container > .section-separator {
+  padding-bottom: 0 !important;
 }
 
 .bg-black {
@@ -702,7 +704,6 @@ ul li {
   margin: 0 auto;
   background-position: center center;
 }
-
 
 .mt-30 {
   margin-top: 30px;
@@ -3305,6 +3306,12 @@ li .fa {
        SERVICES
     ==============
 */
+
+.mh-service {
+  background-color: #fff !important;
+  padding-bottom: 10%;
+}
+
 .mh-service .mh-service-item {
   padding: 20px;
   border-radius: 4px;
