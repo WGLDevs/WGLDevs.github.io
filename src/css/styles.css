@@ -1564,7 +1564,7 @@ li .fa {
     ==============
 */
 #mh-about {
-  padding-top: 40px;
+  padding-top: 15px;
 }
 
 .mh-about .mh-about-inner h2 {
@@ -1582,6 +1582,15 @@ li .fa {
 
 .mh-about .mh-about-inner .btn .fa {
   margin-left: 10px;
+}
+
+.box-card-info {
+  margin-top:20px;
+  padding:10px 10px 5% 10px; 
+  border: 3px solid #fff;
+   border-radius:25px;  
+  -webkit-box-shadow: -1.5rem 0 4rem #000;
+   box-shadow: -1.5rem 0 4rem #000; 
 }
 
 .mh-about-tag {
@@ -1602,10 +1611,11 @@ li .fa {
   border: 1px solid #0bceaf;
   padding: 4px 10px;
   border-radius: 4px;
+  
 }
 
 .mh-about-tag ul li span:hover {
-  background-color: transparent !important;
+  background-color:#0bceaf !important;
 }
 
 /*
@@ -1615,7 +1625,7 @@ li .fa {
 */
 .mh-skills {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .mh-skills .mh-professional-skill h3 {
@@ -1628,6 +1638,14 @@ li .fa {
 
 .mh-professional-skills {
   padding-left: 20%;
+}
+
+.icon-skill {
+  width:40px;
+}
+
+.icon-skill-center {
+  margin: 0 25px;
 }
 
 .mh-professional-skills h3 {
