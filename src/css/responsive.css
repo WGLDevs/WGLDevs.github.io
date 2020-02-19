@@ -340,6 +340,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  .box-home {
+    margin-top:320px;
+  }
+
   .mh-blog .mh-blog-item {
     text-align: center;
   }
@@ -447,6 +452,11 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+
+  .box-home {
+    margin-top:200px;
+  }
+
   .mh-header {
     padding: 0;
   }
@@ -563,7 +573,12 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 380px) {
+
+  .box-home {
+    margin-top:130px;
+  }
+
   .mh-home .img-border {
     height: 280px;
     width: 280px;

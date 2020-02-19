@@ -1441,19 +1441,11 @@ li .fa {
 
 .mh-home {
    height: 100%;
-   position: relative;
    
 }
 
-.home-padding {
-
-}
-
 .box-home {
-  position: absolute;
-  top: 6%;
-  right: 50%;
-  transform: translate(50%, 50%);
+  margin-top:160px;
 }
  
 .mh-home .mh-header-info .mh-promo span {
